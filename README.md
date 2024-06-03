@@ -48,7 +48,7 @@ python face_extractor.py --input input --output output
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Uses
-
 - [MTCNN](https://github.com/ipazc/mtcnn): Multi-task Cascaded Convolutional Networks for face detection.
 - [OpenCV](https://opencv.org/): Open Source Computer Vision Library.
 - [NumPy](https://numpy.org/): Fundamental package for scientific computing with Python.
+- [Tensorflow](https://www.tensorflow.org/) : Free and open-source software library for machine learning and artificial intelligence.
