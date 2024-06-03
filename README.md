@@ -40,13 +40,20 @@ pip install -r requirements.txt
 ## Usage
 
 ```
-python face_extractor.py --input <input_folder> --output <output_folder> [--padding <padding_ratio>] [--confidence_threshold <confidence_threshold>]
+options:
+  -h, --help            show this help message and exit
+  --input INPUT         Path to the input folder.
+  --output OUTPUT       Path to the output folder.
+  --padding PADDING     Padding ratio around the face (default: 0.2)
+  --confidence_threshold Confidence threshold for face detection (default: 0.8)
+  --annotate            Add numbers to detected faces on the output images.
 ```
 
 - `--input`: Path to the input folder containing images.
 - `--output`: Path to the output folder where extracted faces will be saved.
 - `--padding`: Padding ratio around the detected faces (default: 0.2).
 - `--confidence_threshold`: Confidence threshold for face detection (default: 0.8).
+- `--annotate`: Add numbers to detected faces on the output images.
 
 ## Examples
 
@@ -66,6 +73,10 @@ python face_extractor.py --input input --output output
 -  after running ` python face_extractor.py --input "C:\Users\san\Downloads\Face-Extractor" --output "C:\Users\san\Downloads\Face-Extractor\out"`
 
  ![image](https://github.com/sankeer28/Face-Extractor/assets/112449287/6e4a6f8c-0286-4ff8-a47e-fa88792952dd)
+
+ - after running ` python face_extractor.py --input "C:\Users\san\Downloads\Face-Extractor" --output "C:\Users\san\Downloads\Face-Extractor\out" --annotate`
+   
+![gettyimages-200244581-003-612x612_annotated](https://github.com/sankeer28/Face-Extractor/assets/112449287/a2fbf5b3-f201-4476-8fb1-74e5588b5c3f)
 
  80 faces were found
 
