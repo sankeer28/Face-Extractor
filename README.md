@@ -11,17 +11,17 @@ The Face Extractor is a Python script that automates the process of detecting an
 
 ## Features
 
-- Automatic face detection and cropping from images
-- Adjustable padding ratio around detected faces
-- Customizable confidence threshold for controlling face detection sensitivity
-- Supports various image formats including JPG, JPEG, and PNG
-- Output folder organization: Each extracted face is saved with a unique identifier and placed in the output folder
+- Automatic face detection and cropping from all images in specified folder.
+- Adjustable padding ratio around detected faces.
+- Customizable confidence threshold for controlling face detection sensitivity.
+- Supports various image formats including JPG, JPEG, and PNG.
+- Output folder organization: Each extracted face is saved with a unique identifier and placed in the output folder.
 
 ## Uses
 - [MTCNN](https://github.com/ipazc/mtcnn): Multi-task Cascaded Convolutional Networks for face detection.
 - [OpenCV](https://opencv.org/): Open Source Computer Vision Library.
 - [NumPy](https://numpy.org/): Fundamental package for scientific computing with Python.
-- [Tensorflow](https://www.tensorflow.org/) : Free and open-source software library for machine learning and artificial intelligence.
+- [Tensorflow](https://www.tensorflow.org/): Free and open-source software library for machine learning and artificial intelligence.
   
 ## Installation
 
