@@ -1,5 +1,12 @@
 # Face Extractor
-
+```
+  _____                              _                  _             
+ |  ___|_ _  ___ ___        _____  _| |_ _ __ __ _  ___| |_ ___  _ __ 
+ | |_ / _` |/ __/ _ \_____ / _ \ \/ / __| '__/ _` |/ __| __/ _ \| '__|
+ |  _| (_| | (_|  __/_____|  __/>  <| |_| | | (_| | (__| || (_) | |   
+ |_|  \__,_|\___\___|      \___/_/\_\\__|_|  \__,_|\___|\__\___/|_|   
+                                                                      
+```
 The Face Extractor is a Python script that automates the process of detecting and extracting faces from images. It utilizes the MTCNN (Multi-task Cascaded Convolutional Networks) algorithm for robust face detection and cropping.
 
 ## Features
