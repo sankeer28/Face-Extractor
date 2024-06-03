@@ -10,6 +10,12 @@ The Face Extractor is a Python script that automates the process of detecting an
 - Supports various image formats including JPG, JPEG, and PNG
 - Output folder organization: Each extracted face is saved with a unique identifier and placed in the output folder
 
+## Uses
+- [MTCNN](https://github.com/ipazc/mtcnn): Multi-task Cascaded Convolutional Networks for face detection.
+- [OpenCV](https://opencv.org/): Open Source Computer Vision Library.
+- [NumPy](https://numpy.org/): Fundamental package for scientific computing with Python.
+- [Tensorflow](https://www.tensorflow.org/) : Free and open-source software library for machine learning and artificial intelligence.
+  
 ## Installation
 
 1. Clone the repository:
@@ -43,12 +49,20 @@ Extract faces from images in the `input` folder and save them to the `output` fo
 python face_extractor.py --input input --output output
 ```
 
+
+## Example
+
+#### Input image: 
+![gettyimages-200244581-003-612x612](https://github.com/sankeer28/Face-Extractor/assets/112449287/3f00ea72-ea9d-401d-b020-42f886a672e9)
+
+#### Output:
+-  after running ` python face_extractor.py --input "C:\Users\san\Downloads\Face-Extractor" --output "C:\Users\san\Downloads\Face-Extractor\out"`
+
+ ![image](https://github.com/sankeer28/Face-Extractor/assets/112449287/6e4a6f8c-0286-4ff8-a47e-fa88792952dd)
+
+ 80 faces were found
+
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Uses
-- [MTCNN](https://github.com/ipazc/mtcnn): Multi-task Cascaded Convolutional Networks for face detection.
-- [OpenCV](https://opencv.org/): Open Source Computer Vision Library.
-- [NumPy](https://numpy.org/): Fundamental package for scientific computing with Python.
-- [Tensorflow](https://www.tensorflow.org/) : Free and open-source software library for machine learning and artificial intelligence.
